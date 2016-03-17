@@ -17,7 +17,7 @@ ci: ci-setup test-all ci-cleanup
 
 ci-reset:
 	@echo "Resetting build environment"
-	@rm -rf _build
+	@rm -rf ../../_build
 
 ci-setup: ci-reset
 # Nuke mnesia dirs so we don't get borked on emqttd upgrades
