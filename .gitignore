@@ -1,8 +1,14 @@
 /_build
 /deps
+apps/**/erl_crash.dump
 erl_crash.dump
 *.ez
 *.swp
 *.pem
+apps/**/*.ez
+apps/**/*.swp
+apps/**/*.pem
+apps/**/data
 /data
+apps/**/Mnesia.*
 Mnesia.*

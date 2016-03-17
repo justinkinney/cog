@@ -1,0 +1,11 @@
+/_build
+/cover
+/data
+/deps
+/doc
+/test/scratch
+erl_crash.dump
+*.ez
+Mnesia.*
+*.pem
+*.swp
